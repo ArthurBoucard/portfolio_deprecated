@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import bg from './assets/header_bg.jpg'
 import './App.css';
 import Navbar from './components/Navbar';
@@ -16,7 +15,7 @@ function App() {
       </Router>
       <div className="about_div">
         <h1 className="about" id="about">About</h1>
-        <p>
+        <p className="p_about">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 

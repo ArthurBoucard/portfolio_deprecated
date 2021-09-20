@@ -35,13 +35,20 @@ h1 {
 }
 
 .about_div {
+    margin-top: 1%;
     color: #FFFFFF;
 }
 
 .projects_div {
+    margin-top: 2%;
     color: #FFFFFF;
 }
 
 .contact_div {
+    margin-top: 2%;
     color: #FFFFFF;
+}
+
+.p_about {
+    margin-left: 5%;
 }
