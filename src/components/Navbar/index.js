@@ -1,4 +1,3 @@
-import React from 'react'
 import './index.css';
 import { Nav, Bars, NavMenu } from './NavbarElements'
 
@@ -6,7 +5,7 @@ const Navbar = () => {
     return (
         <Nav>
             <a className="navlink" href="#top">
-                <h1>Arthur Boucard</h1>
+                <h1 className="name">Arthur Boucard</h1>
             </a>
             <Bars />
             <NavMenu>

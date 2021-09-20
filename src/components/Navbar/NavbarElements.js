@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { FaBars } from 'react-icons/fa';
 
 export const Nav = styled.nav`
-    background:rgba(0,0,0,0.8);
+    background:rgba(12,12,14,0.3);
     backdrop-filter: blur(6px);
-    height: 60px;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     padding: 0.5ren calc((100vw - 1000px) / 2);

@@ -3,7 +3,12 @@
     padding: 0;
 }
 
+.portfolio {
+    background-color: #111216;
+}
+
 .Bg {
+    position: absolute;
     max-width: 100%;
 }
 
@@ -14,9 +19,29 @@
 
 .header_txt {
     position: absolute;
-    top: 20%;
-    left: 4%;
-    font-size: 80px;
+    margin-top: 10%;
+    margin-left: 4%;
+    font-size: 6vw;
     font-weight: bold;
     text-align: left;
+}
+
+.about {
+    margin-top: 40%;
+}
+
+h1 {
+    font-size: 3.5vw;
+}
+
+.about_div {
+    color: #FFFFFF;
+}
+
+.projects_div {
+    color: #FFFFFF;
+}
+
+.contact_div {
+    color: #FFFFFF;
 }
