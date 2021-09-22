@@ -32,6 +32,9 @@
 
 h1 {
     font-size: 3.5vw;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .about_div {
@@ -40,15 +43,17 @@ h1 {
 }
 
 .projects_div {
-    margin-top: 2%;
     color: #FFFFFF;
 }
 
 .contact_div {
-    margin-top: 2%;
     color: #FFFFFF;
 }
 
 .p_about {
+    margin-left: 5%;
+}
+
+.p_contact {
     margin-left: 5%;
 }
