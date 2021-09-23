@@ -11,6 +11,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CVIcon from '@mui/icons-material/Description';
+import CV from '../assets/documents/ArthurBoucardCV.pdf'
 
 const Home = () => {
     return (
@@ -83,7 +84,7 @@ const Home = () => {
                     <h2>GitHub</h2>
                 </div>
                 <div className="contact_content">
-                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="../assets/documents/ArthurBoucardCV.pdf" download>
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href={CV} download="ArthurBoucardCV">
                         <CVIcon />
                     </IconButton>
                     <h2>Download my CV</h2>
