@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f49f667e.chunk.css",
-    "main.js": "/portfolio/static/js/main.ecda275e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ecda275e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b6e0b894.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b6e0b894.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a33d9ee.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a33d9ee.js.map",
     "static/js/2.9ad696cd.chunk.js": "/portfolio/static/js/2.9ad696cd.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.f49f667e.chunk.css.map": "/portfolio/static/css/main.f49f667e.chunk.css.map",
     "static/js/2.9ad696cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9ad696cd.chunk.js.LICENSE.txt",
+    "static/media/ArthurBoucardCV.81a399a3.pdf": "/portfolio/static/media/ArthurBoucardCV.81a399a3.pdf",
     "static/media/fractal.807e56ae.png": "/portfolio/static/media/fractal.807e56ae.png",
     "static/media/header_bg.2cc0126c.jpg": "/portfolio/static/media/header_bg.2cc0126c.jpg"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.6a33d9ee.js",
     "static/js/2.9ad696cd.chunk.js",
     "static/css/main.f49f667e.chunk.css",
-    "static/js/main.ecda275e.chunk.js"
+    "static/js/main.b6e0b894.chunk.js"
   ]
 }
