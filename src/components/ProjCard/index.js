@@ -10,16 +10,16 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const ProjCard = (props) => {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 265 }}>
         <CardActionArea>
             <CardMedia
                 component="img"
-                height="200"
+                height="125"
                 image={props.img}
                 alt={props.alt}
             />
-            <CardContent style={{backgroundColor: "#202020"}}>
-                <Typography gutterBottom variant="h5" component="div" color="#EEEEEE">
+            <CardContent style={{backgroundColor: "#202020"}} sx={{ maxHeight: 60 }}>
+                <Typography variant="h5" component="div" color="#EEEEEE">
                     {props.title}
                 </Typography>
                 <Typography variant="body2" color="#BBBBBB">
@@ -27,10 +27,10 @@ const ProjCard = (props) => {
                 </Typography>
             </CardContent>
         </CardActionArea>
-        <CardActions style={{backgroundColor: "#202020"}}>
+        <CardActions style={{backgroundColor: "#151515"}} sx={{ maxHeight: 20 }}>
             <Stack direction="row" spacing={1}>
                 <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href={props.gitlink} target="_blank">
-                    <GitHubIcon />
+                    <GitHubIcon fontSize="small" />
                 </IconButton>
                 <IconButton style={{color: "#FEFEFE"}} aria-label="try project" href={props.runlink}>
                     <PlayArrowIcon />

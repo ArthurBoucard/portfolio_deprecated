@@ -60,11 +60,19 @@ const Home = () => {
                 gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
                 runlink=""
             />
+            <ProjCard 
+                title = "Fractal"
+                desc = "A small project that let you create your own fractal tree."
+                img = {fractal}
+                alt = "fractal"
+                gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
+                runlink=""
+            />
             </Stack>
         </div>
         <div className="contact_div">
             <h1 id="contact">Contact</h1>
-            <Stack direction="row" justifyContent="space-evenly" alignItems="center" spacing={0}>
+            <Stack direction="row" justifyContent="space-evenly" alignItems="center" spacing={5}>
                 <div className="contact_content">
                     <IconButton style={{color: "#FEFEFE"}} aria-label="email" href="mailto:arthur.boucard@hotmail.fr" target="_blank">
                         <EmailIcon />
