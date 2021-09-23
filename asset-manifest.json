@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2b13417a.chunk.css",
-    "main.js": "/portfolio/static/js/main.9e3ac799.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9e3ac799.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f7cc55d7.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f7cc55d7.js.map",
-    "static/js/2.2705e66f.chunk.js": "/portfolio/static/js/2.2705e66f.chunk.js",
-    "static/js/2.2705e66f.chunk.js.map": "/portfolio/static/js/2.2705e66f.chunk.js.map",
-    "static/js/3.b396ee65.chunk.js": "/portfolio/static/js/3.b396ee65.chunk.js",
-    "static/js/3.b396ee65.chunk.js.map": "/portfolio/static/js/3.b396ee65.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f49f667e.chunk.css",
+    "main.js": "/portfolio/static/js/main.ecda275e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ecda275e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6a33d9ee.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a33d9ee.js.map",
+    "static/js/2.9ad696cd.chunk.js": "/portfolio/static/js/2.9ad696cd.chunk.js",
+    "static/js/2.9ad696cd.chunk.js.map": "/portfolio/static/js/2.9ad696cd.chunk.js.map",
+    "static/js/3.444d5fff.chunk.js": "/portfolio/static/js/3.444d5fff.chunk.js",
+    "static/js/3.444d5fff.chunk.js.map": "/portfolio/static/js/3.444d5fff.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.2b13417a.chunk.css.map": "/portfolio/static/css/main.2b13417a.chunk.css.map",
-    "static/js/2.2705e66f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2705e66f.chunk.js.LICENSE.txt",
+    "static/css/main.f49f667e.chunk.css.map": "/portfolio/static/css/main.f49f667e.chunk.css.map",
+    "static/js/2.9ad696cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9ad696cd.chunk.js.LICENSE.txt",
     "static/media/fractal.807e56ae.png": "/portfolio/static/media/fractal.807e56ae.png",
     "static/media/header_bg.2cc0126c.jpg": "/portfolio/static/media/header_bg.2cc0126c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7cc55d7.js",
-    "static/js/2.2705e66f.chunk.js",
-    "static/css/main.2b13417a.chunk.css",
-    "static/js/main.9e3ac799.chunk.js"
+    "static/js/runtime-main.6a33d9ee.js",
+    "static/js/2.9ad696cd.chunk.js",
+    "static/css/main.f49f667e.chunk.css",
+    "static/js/main.ecda275e.chunk.js"
   ]
 }
