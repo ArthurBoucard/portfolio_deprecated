@@ -6,6 +6,11 @@ import ProjCard from './ProjCard';
 import { BrowserRouter as Router } from 'react-router-dom';
 import fractal from '../assets/project/fractal.png'
 import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import CVIcon from '@mui/icons-material/Description';
 
 const Home = () => {
     return (
@@ -58,9 +63,32 @@ const Home = () => {
         </div>
         <div className="contact_div">
             <h1 id="contact">Contact</h1>
-            <p className="p_contact">
-            arthur.boucard@hotmail.fr
-            </p>
+            <Stack direction="row" justifyContent="space-evenly" alignItems="center" spacing={0}>
+                <div className="contact_content">
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="email" href="mailto:arthur.boucard@hotmail.fr" target="_blank">
+                        <EmailIcon />
+                    </IconButton>
+                    <h2>arthur.boucard@hotmail.fr</h2>
+                </div>
+                <div className="contact_content">
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to linkedin" href="https://www.linkedin.com/in/arthur-boucard-786745198/" target="_blank">
+                        <LinkedInIcon />
+                    </IconButton>
+                    <h2>LinkedIn</h2>
+                </div>
+                <div className="contact_content">
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="https://github.com/ArthurBoucard" target="_blank">
+                        <GitHubIcon />
+                    </IconButton>
+                    <h2>GitHub</h2>
+                </div>
+                <div className="contact_content">
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="../assets/documents/ArthurBoucardCV.pdf" download>
+                        <CVIcon />
+                    </IconButton>
+                    <h2>Download my CV</h2>
+                </div>
+            </Stack>
         </div>
         </div>
     );

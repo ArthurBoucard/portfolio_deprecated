@@ -57,3 +57,10 @@ h1 {
 .p_contact {
     margin-left: 5%;
 }
+h2 {
+    font-size: 1.2vw;
+}
+
+.contact_content {
+    text-align: center;
+}
