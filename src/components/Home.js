@@ -5,6 +5,12 @@ import Navbar from './Navbar';
 import ProjCard from './ProjCard';
 import { BrowserRouter as Router } from 'react-router-dom';
 import fractal from '../assets/project/fractal.png'
+import bomberman from '../assets/project/bomberman.png'
+import dante from '../assets/project/dante.png'
+import sokoban from '../assets/project/sokoban.png'
+import htop from '../assets/project/htop.png'
+import rpg from '../assets/project/rpg.png'
+import github from '../assets/project/github.png'
 import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
 import EmailIcon from '@mui/icons-material/Email';
@@ -36,38 +42,72 @@ const Home = () => {
         <div className="projects_div">
             <h1 id="projects">Projects</h1>
             <Stack direction="row" justifyContent="space-evenly" alignItems="center" spacing={0}>
-            <ProjCard 
-                title = "Fractal"
-                desc = "A small project that let you create your own fractal tree."
-                img = {fractal}
-                alt = "fractal"
-                gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
-                runlink="/Terminal"
-            />
-            <ProjCard 
-                title = "Fractal"
-                desc = "A small project that let you create your own fractal tree."
-                img = {fractal}
-                alt = "fractal"
-                gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
-                runlink=""
-            />
-            <ProjCard 
-                title = "Fractal"
-                desc = "A small project that let you create your own fractal tree."
-                img = {fractal}
-                alt = "fractal"
-                gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
-                runlink=""
-            />
-            <ProjCard 
-                title = "Fractal"
-                desc = "A small project that let you create your own fractal tree."
-                img = {fractal}
-                alt = "fractal"
-                gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
-                runlink=""
-            />
+                <ProjCard 
+                    title = "Bomberman"
+                    desc = "My 2nd year last project, A Bomberman with a local multiplayer gameplay, basic AI, power-ups, character customisation and a save system."
+                    lang = "C++ using Raylib"
+                    team = "Team of 5 - 1 month"
+                    img = {bomberman}
+                    alt = "bomberman"
+                    gitlink="https://github.com/ArthurBoucard/Bomberman-IndieStudio"
+                />
+                <ProjCard 
+                    title = "Sokoban"
+                    desc = "A copy of the sokoban game that can be played in terminal."
+                    lang = "C with NCurses"
+                    team = "Solo - 2 weeks"
+                    img = {sokoban}
+                    alt = "sokoban"
+                    gitlink="https://github.com/ArthurBoucard/MySokoban"
+                />
+                <ProjCard 
+                    title = "Dante's Star"
+                    desc = "A maze generator and solver."
+                    lang = "C"
+                    team = "Solo - 2 weeks"
+                    img = {dante}
+                    alt = "dante"
+                    gitlink="https://github.com/ArthurBoucard/Dante_Star"
+                />
+                <ProjCard 
+                    title = "HTop"
+                    desc = "An application that shows information about your system."
+                    lang = "C++ using SFML & NCurses"
+                    team = "Team of 4 - 3 days"
+                    img = {htop}
+                    alt = "htop"
+                    gitlink="https://github.com/ArthurBoucard/HTop"
+                />
+            </Stack>
+            <br></br>
+            <Stack direction="row" justifyContent="space-evenly" alignItems="center" spacing={0}>
+                <ProjCard 
+                    title = "RPG"
+                    desc = "A small rpg with combat, dialogues, cut scenes and a basic level-up system."
+                    lang = "C usign CSFML"
+                    team = "Team of 4 - 2 weeks"
+                    img = {rpg}
+                    alt = "rpg"
+                    gitlink="https://github.com/ArthurBoucard/MyRPG"
+                />
+                <ProjCard 
+                    title = "Fractal"
+                    desc = "A small project that let you create your own fractal tree with different parameters."
+                    lang = "Python using turtle"
+                    team = "Solo - 1 day"
+                    img = {fractal}
+                    alt = "fractal"
+                    gitlink="https://github.com/ArthurBoucard/Fractal_Tree"
+                />
+                <ProjCard 
+                    title = "More projects on my GitHub"
+                    desc = "More than 20 repositories"
+                    lang = "C / C++ / Python / HTML..."
+                    team = ""
+                    img = {github}
+                    alt = "github"
+                    gitlink="https://github.com/ArthurBoucard"
+                />
             </Stack>
         </div>
         <div className="contact_div">
