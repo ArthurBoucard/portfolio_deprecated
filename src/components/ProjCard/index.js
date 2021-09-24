@@ -9,37 +9,37 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const ProjCard = (props) => {
     return (
-        <Card sx={{ maxWidth: 265 }}>
-        <CardActionArea>
-            <CardMedia
-                component="img"
-                height="125"
-                image={props.img}
-                alt={props.alt}
-            />
-            <CardContent style={{backgroundColor: "#202020"}}>
-                <Typography variant="h5" component="div" color="#EEEEEE">
-                    {props.title}
-                </Typography>
-                <Typography variant="body2" color="#CCCCCC">
-                    {props.desc}<br></br>
-                    ---------------------------------------------------------
-                </Typography>
-                <Typography variant="body3" color="#AAAAAA">
-                    {props.lang}<br></br>
-                </Typography>
-                <Typography variant="body3" color="#AAAAAA">
-                    {props.team}
-                </Typography>
-            </CardContent>
-        </CardActionArea>
-        <CardActions style={{backgroundColor: "#151515"}} sx={{ maxHeight: 20 }}>
-            <Stack direction="row" spacing={1}>
-                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href={props.gitlink} target="_blank">
-                    <GitHubIcon fontSize="small" />
-                </IconButton>
-            </Stack>
-        </CardActions>
+        <Card sx={{ maxWidth: 265, minWidth: 265}}>
+            <CardActionArea>
+                <CardMedia
+                    component="img"
+                    height="125"
+                    image={props.img}
+                    alt={props.alt}
+                />
+                <CardContent style={{backgroundColor: "#202020"}}>
+                    <Typography variant="h5" component="div" color="#EEEEEE">
+                        {props.title}
+                    </Typography>
+                    <Typography variant="body2" color="#CCCCCC">
+                        {props.desc}<br></br>
+                        ---------------------------------------------------------
+                    </Typography>
+                    <Typography variant="body3" color="#AAAAAA">
+                        {props.lang}<br></br>
+                    </Typography>
+                    <Typography variant="body3" color="#AAAAAA">
+                        {props.team}
+                    </Typography>
+                </CardContent>
+            </CardActionArea>
+            <CardActions style={{backgroundColor: "#151515"}} sx={{ maxHeight: 20 }}>
+                <Stack direction="row" spacing={1}>
+                    <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href={props.gitlink} target="_blank">
+                        <GitHubIcon fontSize="small" />
+                    </IconButton>
+                </Stack>
+            </CardActions>
         </Card>
     );
 }

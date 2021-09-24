@@ -26,6 +26,12 @@
     text-align: left;
 }
 
+.parallax {
+    position: relative;
+    background-image: url("../assets/parallax_bg.jpg");
+    margin-top: -10px;
+}
+
 .about {
     margin-top: 40%;
 }
@@ -35,6 +41,10 @@ h1 {
     margin-left: 2%;
     margin-bottom: 2%;
     margin-top: 2%;
+}
+
+.avatar {
+    margin-left: 2%;
 }
 
 .about_div {
@@ -51,7 +61,10 @@ h1 {
 }
 
 .p_about {
-    margin-left: 5%;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -18vh;
+    font-size: 3.5vh;
 }
 
 .p_contact {
@@ -63,4 +76,10 @@ h2 {
 
 .contact_content {
     text-align: center;
+}
+
+.end_content {
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #111111;
 }
