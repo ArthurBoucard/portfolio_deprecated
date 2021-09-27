@@ -21,9 +21,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import CVIcon from '@mui/icons-material/Description';
 import HeartIcon from '@mui/icons-material/Favorite';
 import CV from '../assets/documents/ArthurBoucardCV.pdf'
+import SimpleBar from 'simplebar-react';
+import 'simplebar/dist/simplebar.min.css';
 
 const Home = () => {
     return (
+        <SimpleBar style={{ maxHeight: 1000000 }}>
         <div className="portfolio">
             <div id="top" className="header_container">
                 <img className="Bg" src={bg} alt="background"></img>
@@ -153,6 +156,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        </SimpleBar>
     );
 }
 
