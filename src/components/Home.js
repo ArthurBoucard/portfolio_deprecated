@@ -89,7 +89,7 @@ const Home = () => {
                             HTop
                         </h4>
                         <p>
-                            An application that shows information about your system.
+                            An application that shows information about your computer.
                         </p>
                         <div class="user">
                             <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
@@ -139,7 +139,7 @@ const Home = () => {
                             RPG
                         </h4>
                         <p>
-                            A small rpg with combat, dialogues, cut scenes and a basic level-up system.
+                            A small rpg with a battle system, dialogues, cut scenes and a basic level-up system.
                         </p>
                         <div class="user">
                             <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
