@@ -17,7 +17,7 @@ const ProjCard = (props) => {
                     image={props.img}
                     alt={props.alt}
                 />
-                <CardContent style={{backgroundColor: "#202020"}}>
+                <CardContent style={{ backgroundColor: "#202020" }} sx={{ minHeight: 160 }}>
                     <Typography variant="h5" component="div" color="#EEEEEE">
                         {props.title}
                     </Typography>
