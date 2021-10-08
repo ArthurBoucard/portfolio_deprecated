@@ -50,182 +50,185 @@ const Home = () => {
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={bomberman} alt="bomberman" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-red">Game</span>
-                            <span class="tag tag-teal">Multiplayer</span>
-                        </div>
-                        <h4>
-                            Bomberman
-                        </h4>
-                        <p>
-                            A Bomberman with a local multiplayer gameplay, basic AI, power-ups, character customisation and a save system.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C++ | Raylib</h5>
-                            <small>Team of 5 - 1 month</small>
+                <div className="projects_div">
+                    <h1 id="projects">Projects</h1>
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={bomberman} alt="bomberman" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-red">Game</span>
+                                <span class="tag tag-teal">Multiplayer</span>
+                            </div>
+                            <h4>
+                                Bomberman
+                            </h4>
+                            <p>
+                                A Bomberman with a local multiplayer gameplay, basic AI, power-ups, character customisation and a save system.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C++ | Raylib</h5>
+                                <small>Team of 5 - 1 month</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={htop} alt="htop" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-light-purple">Application</span>
-                        </div>
-                        <h4>
-                            HTop
-                        </h4>
-                        <p>
-                            An application that shows information about your computer.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C++ | SFML & NCurses</h5>
-                            <small>Team of 4 - 3 days</small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={htop} alt="htop" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-light-purple">Application</span>
+                            </div>
+                            <h4>
+                                HTop
+                            </h4>
+                            <p>
+                                An application that shows information about your computer.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C++ | SFML & NCurses</h5>
+                                <small>Team of 4 - 3 days</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={dante} alt="dante" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-green">algorithm</span>
-                        </div>
-                        <h4>
-                            Dante's Star
-                        </h4>
-                        <p>
-                            A maze generator and solver.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C</h5>
-                            <small>Solo - 2 weeks</small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={dante} alt="dante" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-green">algorithm</span>
+                            </div>
+                            <h4>
+                                Dante's Star
+                            </h4>
+                            <p>
+                                A maze generator and solver.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C</h5>
+                                <small>Solo - 2 weeks</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={rpg} alt="rpg" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-red">Game</span>
-                        </div>
-                        <h4>
-                            RPG
-                        </h4>
-                        <p>
-                            A small rpg with a battle system, dialogues, cut scenes and a basic level-up system.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C | CSFML</h5>
-                            <small>Team of 4 - 2 weeks</small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={rpg} alt="rpg" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-red">Game</span>
+                            </div>
+                            <h4>
+                                RPG
+                            </h4>
+                            <p>
+                                A small rpg with a battle system, dialogues, cut scenes and a basic level-up system.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C | CSFML</h5>
+                                <small>Team of 4 - 2 weeks</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={sokoban} alt="sokoban" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-red">Game</span>
-                            <span class="tag tag-purple">puzzle</span>
-                        </div>
-                        <h4>
-                            Sokoban
-                        </h4>
-                        <p>
-                            A copy of the sokoban game that can be played in terminal.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C | NCurses</h5>
-                            <small>Solo - 2 weeks</small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={sokoban} alt="sokoban" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-red">Game</span>
+                                <span class="tag tag-purple">puzzle</span>
+                            </div>
+                            <h4>
+                                Sokoban
+                            </h4>
+                            <p>
+                                A copy of the sokoban game that can be played in terminal.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C | NCurses</h5>
+                                <small>Solo - 2 weeks</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={fractal} alt="fractal" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-green">algorithm</span>
-                        </div>
-                        <h4>
-                            Fractal
-                        </h4>
-                        <p>
-                            A small project that let you create your own fractal tree with different parameters.
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>Pyhton | Turtle</h5>
-                            <small>Solo - 1 day</small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={fractal} alt="fractal" />
+                            </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-green">algorithm</span>
+                            </div>
+                            <h4>
+                                Fractal
+                            </h4>
+                            <p>
+                                A small project that let you create your own fractal tree with different parameters.
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>Pyhton | Turtle</h5>
+                                <small>Solo - 1 day</small>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                        <img src={github} alt="github" />
-                        </div>
-                        <div class="card-body">
-                        <div>
-                            <span class="tag tag-pink">projects</span>
-                        </div>
-                        <h4>
-                            More project on my GitHub
-                        </h4>
-                        <p>
-                            More than 20 repositories
-                        </p>
-                        <div class="user">
-                            <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
-                                <GitHubIcon fontSize="large" />
-                            </IconButton>
-                            <div class="user-info">
-                            <h5>C | C++ | Python | HTML ...</h5>
-                            <small></small>
+                        <div class="card">
+                            <div class="card-header">
+                            <img src={github} alt="github" />
                             </div>
-                        </div>
+                            <div class="card-body">
+                            <div>
+                                <span class="tag tag-pink">projects</span>
+                            </div>
+                            <h4>
+                                More project on my GitHub
+                            </h4>
+                            <p>
+                                More than 20 repositories
+                            </p>
+                            <div class="user">
+                                <IconButton style={{color: "#FEFEFE"}} aria-label="go to github" href="" target="_blank">
+                                    <GitHubIcon fontSize="large" />
+                                </IconButton>
+                                <div class="user-info">
+                                <h5>C | C++ | Python | HTML ...</h5>
+                                <small></small>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>

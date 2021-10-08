@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {    
     margin: 0;
@@ -29,9 +29,24 @@
     position: absolute;
     margin-top: 10%;
     margin-left: 4%;
-    font-size: 6vw;
+    font-size: 80px;
     font-weight: bold;
     text-align: left;
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animated-text 4s steps(50,end) 1s 1 normal,
+            animated-cursor 600ms steps(50,end) infinite;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 540px; border-right-color: transparent;}
+}
+
+@keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
 }
 
 .parallax {
@@ -91,16 +106,6 @@ h2 {
     text-align: center;
     background-color: #111111;
 }
-
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #f7f8fc;
-    font-family: "Roboto", sans-serif;
-    color: #10182f;
-} */
 
 .container {
     display: flex;
