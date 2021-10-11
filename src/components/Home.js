@@ -43,9 +43,9 @@ const Home = () => {
                     sx={{ width: 120, height: 120 }}
                     />
                     <p className="p_about">
-                    Hi my name is Arthur Boucard, I'm a 3rd year student at Epitech in Lyon working toward a master in computer science. 
-                    My interest towards computers started very young which led me to the world of code. I love trying new technologies, learning 
-                    new languages and seeing how far I can go in a project.
+                        Hi my name is Arthur Boucard, I'm a 3rd year student at Epitech in Lyon working toward a master in computer science. 
+                        My interest towards computers started very young which led me to the world of code. I love trying new technologies, learning 
+                        new languages and seeing how far I can go in a project.
                     </p>
                 </div>
                 <div className="projects_div">
