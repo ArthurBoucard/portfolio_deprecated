@@ -38,9 +38,9 @@ const Home = () => {
                 <div className="about_div">
                     <h1 className="about" id="about">About me</h1>
                     <Avatar className="avatar"
-                    alt="Me"
-                    src={me}
-                    sx={{ width: 120, height: 120 }}
+                        alt="Me"
+                        src={me}
+                        sx={{ width: 120, height: 120 }}
                     />
                     <p className="p_about">
                         Hi my name is Arthur Boucard, I'm a 3rd year student at Epitech in Lyon working toward a master in computer science. 
